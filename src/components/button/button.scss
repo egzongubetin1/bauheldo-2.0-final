@@ -1,0 +1,150 @@
+$red_color: #E7352A;
+$blue_color: #194783;
+$white_color: #FFF;
+
+
+.btn{
+    font-family: Open Sans,Regular;
+    border-radius : 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-offers{
+    font-family: Open Sans,Bold;
+    border-radius : 5px;
+    border: none;
+    font-weight: bold;
+    background-color: #D0D0D0;
+}
+
+.btn:hover{
+    background-color: #262262;
+    cursor: pointer;
+}
+
+.big{
+    width: 145px;
+    height : 48px;
+}
+
+.medium{
+    width: 121px;
+    height: 48px;
+}
+
+.ft-size_big{
+  width: 269px;
+  height : 48px;
+}
+
+.ft-size_small{
+    width: 221px;
+    height : 48px;
+}
+
+.btn-nav{
+    background-color: $red_color;
+    color : $white_color;
+    font-size: 16px;
+}
+
+.btn-footer{
+    background-color: #262262;
+    color: $white_color;
+    border: 0.2px solid $white_color;
+    font-size : 14px;
+}
+
+.ft-size_register{
+    width: 371px;
+    height : 48px;
+}
+
+.input-btn_medium{
+  width:103px;
+  height :68px;
+}
+
+.btn-package{
+    width :137px;
+    height: 48px;
+    background-color: #D0D0D0;
+    color: #000;
+    border-radius: 2px;
+    margin-top: 32.5px;
+}
+
+.btn-offers_arrange{
+    width: 305px;
+    height: 48px;
+    background-color: #E7352A;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.btn-subscriptions1{
+    width: 137px;
+    height: 48px;
+    background-color: #D0D0D0;
+    color: #000;
+    border-radius: 4px;
+    padding: 1rem;
+    // margin: 1rem;
+}
+
+.btn-subscriptions2{
+    width: 137px;
+    height: 48px;
+    background-color: #E7352A;
+    color: #fff;
+    border-radius: 4px;
+    padding: 1rem;
+    // margin: 1rem;
+}
+
+.btn-widget1{
+    width: 145px;
+    height: 48px;
+    background-color: #E7352A;
+    color: #FFF;
+    font-size: 14px; 
+}
+
+.btn-widget2{
+    width: 370px;
+    height: 48px;
+    background-color: #D0D0D0;
+    color: #47525C;
+    font-size: 14px; 
+}
+
+.btn-scoring_rate{
+    width: 213px;
+    height: 48px;
+    background-color: #E7352A;
+    color: #FFF;
+    font-size: 15px;
+}
+
+.btn-scoring_contact{
+    background-color: #E7352A;
+    color: #FFF;
+    font-size: 15px;
+    height: 48px;
+    width: 116px;
+}
+
+@media only screen and (max-width: 414px) {
+
+    .big{
+        width: 103px;
+        height: 48px;
+    }
+
+    .btn-nav{
+        font-size: 12px;
+        padding: 8px;
+    }
+}

@@ -1,0 +1,58 @@
+.discover2-background{
+    background: linear-gradient(to bottom, #FFFFFF 50%, #F8F8F9 50%);
+    position: relative;
+    bottom: 100px;
+  }
+  .discover2-container{
+    width: 100%;
+    display: flex;
+    padding:50px 0 20px;
+    justify-content: center;
+  }
+    .discover2Banner{
+      text-align: center;
+      z-index: 1;
+      padding: 30px 0px 30px;
+      border: 1px solid #00000029;
+      background-color: white;
+      width : 80%;
+      border-radius: 4px;
+      .discover2Banner-title{
+        position: relative;
+        bottom: 20px;
+      }
+      h3{
+        font-size: 16px;
+        line-height: 40px;
+        font-family: Open Sans;
+        font-weight: bold;
+        color: #000;
+        font-weight: bold;
+        margin-bottom: 33px;
+        padding-top: 30px;
+      }
+      a{
+        font-size: 16px;
+        line-height: 32px;
+        padding: 12px 20px;
+        font-family: Open Sans;
+        min-width: 100px;
+        color: white;
+        background-color: $red_color;
+        text-decoration: none;
+        font-weight: bold;
+        border: 0 solid transparent !important;
+        border-radius: 4px;
+      }
+   }
+   .discover2Banner-paragraph{
+       width:770px;
+       justify-content: center;
+       position: relative;
+       bottom: 30px;
+       left: 50px;
+   }
+   .discover2Banner-paragraph2{
+    position: relative;
+    top: 20px;
+   }

@@ -1,0 +1,512 @@
+.checkRatings {
+    display: flex;
+    justify-content: center;
+    background-color: #F8F8F9;
+    height: 960px;
+    .checkRatings-start {
+      margin-top: 30px;
+      .checkRatings-left {
+        align-items: right;
+        width: 50%;
+      }
+      .checkRatings_list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 32px;
+        position: relative;
+        bottom: 10px;
+        span {
+          color: $blue_color;
+        }
+        img {
+          margin-right: 13px;
+        }
+        ul {
+          list-style: none;
+          padding: 0;
+          li {
+            position: relative;
+            padding: 6px 0 9px 0px;
+            font-family: Open Sans;
+            font-style: Regular;
+            line-height: 32px;
+            font-size: 16px;
+            color: #47525C;
+            &:first-child {
+              border: none;
+            }
+            &::before {
+              content: "";
+              position: absolute;
+              width: 15px;
+              height: 15px;
+              left: 0;
+              bottom: 25%;
+            }
+          }
+        }
+      }
+      .checkRatings-paragraph_two {
+        position: relative;
+        bottom: 40px;
+        line-height: 32px;
+      }
+      .checkRatings-button {
+        position: relative;
+        bottom: 60px;
+      }
+      .checkRatings-right {
+        flex-direction: row;
+        text-align: right;
+        position: relative;
+        bottom: 660px;
+      }
+      .evaluate-navigate {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 345px;
+        margin-top: 1rem;
+        font-family: 'Open Sans';
+        font-size: 14px;
+      }
+      .evaluate-navigate2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 150px;
+        margin-top: 1rem;
+        font-family: 'Open Sans';
+        font-size: 14px;
+      }
+      .checkRatings-paragraph {
+        position: relative;
+        bottom: 30px;
+      }
+      h1 {
+        font-family: 'Open Sans', Bold;
+        margin: 0rem 0rem 0 0;
+        font-size: 30px;
+      }
+      p {
+        font-family: 'Open Sans', Regular;
+        margin: 2.7rem 0rem 0 0;
+        font-size: 16px;
+        line-height: 28px;
+      }
+      button {
+        font-size: 16px;
+        padding: 12px 35px;
+        font-family: Open Sans;
+        min-width: 100px;
+        color: white;
+        background-color: $red_color;
+        margin-top: 50%;
+        text-decoration: none;
+        font-weight: bold;
+        border: 0 solid transparent !important;
+        border-radius: 4px;
+        margin: 3rem 0rem 0 0;
+        top: 50px;
+      }
+      button:hover {
+        background-color: #47525D;
+      }
+    }
+  }
+  .dota-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .dota {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    bottom: 130px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 6px;
+    .dota-card {
+      justify-content: center;
+      text-align: center;
+      border-left: 2px solid #D0D0D0;
+      flex: 1 1;
+      &:first-child {
+        border-left: 0;
+      }
+      .dotaCard-text {
+        padding-top: 10px;
+      }
+    }
+    h5 {
+      font-family: Open Sans;
+      font-size: 16px;
+      color: #000000;
+      line-height: 52px;
+      font-family: Open Sans;
+      font-style: Bold;
+    }
+    p {
+      font-family: Open Sans;
+      font-size: 14px;
+      font-weight: normal;
+      padding-top: 10px;
+      color: #000000;
+      font-style: Regular;
+    }
+    a {
+      font-family: Open Sans, Regular;
+      padding-top: 8px;
+      font-size: 16px;
+      line-height: 52px;
+      color: #2A5CE3;
+      text-decoration: none;
+      transition: 0.3s;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+  h1 {
+    font-family: 'Open Sans', Bold;
+    font-size: 26px;
+    font-style: Bold;
+    padding-top: 10px;
+    line-height: 52px;
+  }
+  p {
+    font-family: 'Open Sans';
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .advantages {
+    display: flex;
+    justify-content: center;
+    .advantages-start {
+      margin-top: 30px;
+      margin: -1rem 0rem 0rem 0rem;
+    }
+    .advantages-left {
+      align-items: right;
+      width: 53%;
+      bottom: -92px;
+      position: relative;
+      .text {
+        margin: 1rem 0rem 0rem 0rem;
+      }
+    }
+    .advantages-right {
+      flex-direction: row;
+      text-align: right;
+      margin: -16rem 0rem 0rem 0rem;
+    }
+    .advantages-title {
+      justify-content: center;
+      text-align: center;
+      line-height: 1px;
+    }
+  }
+  .products {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem 0rem 5rem 0rem;
+    .products-title {
+      text-align: center;
+    }
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 3rem 3rem 3rem 0rem;
+    .cards-row {
+      display: flex;
+      justify-content: space-between;
+    }
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #C4CED9;
+      border-radius: 8px;
+      padding-bottom: 10px;
+      box-sizing: border-box;
+      height: 100%;
+      width: 32%;
+      min-height: inherit;
+    }
+    .card-header {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-right: 20px;
+      padding-left: 20px;
+      border-bottom: 1px solid #C4CED9;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: 'Open Sans', sans-serif;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      line-height: 28px;
+    }
+    .card-body {
+      padding: 20px;
+      height: 280px;
+    }
+    .card-image {
+      position: relative;
+      margin-bottom: 12px;
+      overflow: hidden;
+      font-size: 0;
+      line-height: 0;
+      border-radius: 4px;
+    }
+    .card-description {
+      font-size: 14px;
+      line-height: 26px;
+      color: #47525D;
+    }
+    .card-footer {
+      margin-top: auto;
+      padding-top: 5px;
+      padding-left: 20px;
+      border-top: 1px solid #C4CED9;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: #4E7CBD;
+      line-height: 40px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+    }
+    .card-footer_arrow {
+      line-height: 40px;
+      margin-right: 20px;
+      margin-left: auto;
+      padding-left: 20px;
+      border-left: 1px solid #C4CED9;
+    }
+  }
+  .infoImage {
+    position: absolute;
+    transform: translate(0, -50%);
+    left: calc(25% + 20px);
+  }
+  .sharereviews-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .sharereviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 6px;
+    .sharereview-card {
+      justify-content: center;
+      text-align: center;
+      border-left: 2px solid #D0D0D0;
+      flex: 1 1;
+      &:first-child {
+        border-left: 0;
+      }
+      .sharereview-text {
+        padding-top: 10px;
+      }
+    }
+    .sharereview-content {
+      padding-top: 20px;
+    }
+    h5 {
+      font-family: Open Sans;
+      font-size: 16px;
+      color: #000000;
+      line-height: 52px;
+      font-family: Open Sans;
+      font-style: Bold;
+    }
+    p {
+      font-family: Open Sans;
+      font-size: 14px;
+      font-weight: normal;
+      padding-top: 10px;
+      color: #000000;
+      font-style: Regular;
+    }
+    a {
+      font-family: Open Sans, Regular;
+      padding-top: 8px;
+      font-size: 16px;
+      line-height: 52px;
+      color: #2A5CE3;
+      text-decoration: none;
+      transition: 0.3s;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+  h1 {
+    font-family: 'Open Sans', Bold;
+    font-size: 26px;
+    font-style: Bold;
+    padding-top: 10px;
+    line-height: 52px;
+  }
+  p {
+    font-family: 'Open Sans';
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .share-reviews_advantage1 {
+    display: flex;
+  }
+  .share-reviews_advantage2 {
+    display: flex;
+  }
+  .link-sharereviews {
+    text-decoration: none;
+    color: #fff;
+  }
+  /*-------------- second section -----------------*/
+  .block-second {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 130px;
+  }
+  .block-second_container {
+    display: flex;
+    justify-content: space-between;
+    background-repeat: none;
+  }
+  .block-content {
+    margin-right: 250px;
+  }
+  .arrow {
+    display: flex;
+    justify-content: center;
+    img {
+      height: 150px;
+      width: 180px;
+    }
+  }
+  .block-container_image-second {
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+  .block-container_text-second {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 32px;
+    text-align: match-parent;
+    h2 {
+      font-size: 26px;
+      line-height: 34px;
+      color: #000000;
+      font-weight: bold;
+      font-family: Open Sans;
+      font-style: Regular;
+      padding-bottom: 20px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 32px;
+      color: #000000;
+      font-family: "Open Sans", sans-serif;
+    }
+    h4 {
+      padding-top: 40px;
+      font-size: 16px;
+      line-height: 28px;
+      margin-bottom: 13px;
+      color: #000000;
+      font-weight: bold;
+      font-family: Open Sans;
+      font-style: Regular;
+    }
+    span {
+      color: $blue_color;
+    }
+    img {
+      margin-right: 13px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        position: relative;
+        padding: 6px 0 9px 25px;
+        font-family: Open Sans;
+        font-style: Regular;
+        line-height: 32px;
+        font-size: 16px;
+        color: #47525C;
+        &:first-child {
+          border: none;
+        }
+        &::before {
+          content: url('../../assets/images/donezi.png');
+          position: absolute;
+          width: 15px;
+          height: 15px;
+          left: 0;
+          top: 5px;
+        }
+      }
+    }
+  }
+  .arrow {
+    display: flex;
+    justify-content: center;
+    img {
+      height: 150px;
+      width: 180px;
+    }
+  }
+  .second {
+    flex-direction: row-reverse;
+  }
+  .checkRatings_list-second {
+    position: relative;
+    top: 10px;
+    .check-icon_ratings {
+      display: flex;
+      align-items: flex-start;
+      img {
+        margin: 15px 15px 0 0;
+      }
+    }
+  }
+  .checkblock-paragraph2 {
+    position: relative;
+    top: 15px;
+  }
+  .verification-paragraph2 {
+    padding-top: 15px;
+  }
+  .checkRatubgs-dota1 {
+    position: relative;
+    top: 50px;
+  }
+
+  .checkrating-questions{
+      margin-bottom: 40px;
+  }
+

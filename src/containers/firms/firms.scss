@@ -1,0 +1,38 @@
+.firms-container{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    &_content{
+        width: 1096px;
+        display: flex;
+        flex-direction: flex-start;
+    }
+
+    &_text{
+        display: flex;
+        flex-direction: flex-start;
+        font-family: Open Sans,Regular;
+        border-right: 1px solid #D0D0D0;
+        padding: 1rem;
+        font-size: 14px;
+        margin-right: 5rem;
+
+        p{
+            padding-right: 30px;
+            margin-left : -17px;
+        }
+    }
+
+    // &_logo{
+    //     // margin-right: 50px;
+    // }
+}
+
+@media only screen and (max-width: 414px) {
+    .firms-container{
+        margin-left: 285px;
+    }
+}

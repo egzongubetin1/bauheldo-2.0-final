@@ -1,0 +1,112 @@
+$background_color : #F5F4F2;
+
+.header-container{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: $background_color;
+
+    &_content-wrapper{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        left: 123px;
+    }
+
+    &_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 50px;
+        max-width: 533px;
+        max-height: 300px;
+        
+        h1{
+            font-family: Open Sans , Bold;
+            color: #000000;
+            font-weight: Bold;
+            font-size :40px;
+        }
+
+        p{
+            font-family: Open Sans,Regular;
+        }
+    }
+
+    &_image{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 7% 100%);
+        position: relative;
+        right : 200px;  
+    }
+
+    .header-fix{
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    .header-review_image{
+        position: relative;
+        top: 230px;
+        right: -200px;
+        height: 190px;
+        width: 134px;
+        z-index: 10;
+    }
+}
+
+.header-image{
+    width: 675px;
+    height : 462px;
+    // position: relative;
+    // top : -100px;
+    // right : -150px;
+    // padding-right: 167px;
+}
+
+@media only screen and (max-width: 414px) {
+    .header-container{
+        position: relative;
+        left: 155px;
+        // z-index: 5;
+    }
+
+    // .main{
+    //     // background-color: $background_color;
+    // }
+
+    .header-container_image{
+        clip-path: polygon(37% 0, 100% 0, 100% 100%, 49% 100%);
+    }
+
+    .header-review_image{
+        left: 15px;
+        bottom: 10px;
+    }
+
+    .header-container_img{
+        // position: absolute;
+        // right: -100px;
+        margin-left: 100px;
+    }
+
+    .header-container_content{
+        h1{
+            font-size: 20px;
+            // width: 266px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+
+    .header-container_content-wrapper{
+        position: relative;
+        left: -10px;
+        // margin-left: 200px;
+    }
+}
+
+
+

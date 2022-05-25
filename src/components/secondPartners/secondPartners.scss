@@ -1,0 +1,96 @@
+.partners{
+  background-color: #E7F3EA;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+.topPartners{
+  width: 1436px;
+}
+  .topPartners{
+    text-align: center;
+    h2{
+      font-size: 26px;
+      line-height: 34px;
+      color: #000;
+      font-weight: bold;
+      font-family: "Open Sans",sans-serif;
+    }
+    .informationCards {
+      display: flex;
+      justify-content: space-around;
+      padding: 65px 0;
+      .informationCard {
+        border-left: 1px solid #C4CED9;
+        flex: 1 1;
+        padding: 0 10px;
+     padding-top: 40px;
+        &:first-child {
+          border-left: 0;
+        }
+        h4 {
+          font-size: 16px;
+          font-weight: bold;
+          color: #000;
+          padding-top: 30px;
+          font-family: "Open Sans",sans-serif;
+        }
+        h5 {
+          font-size: 14px;
+          font-weight: normal;
+          color: gray;
+          font-family: "Open Sans",sans-serif;
+        }
+        a {
+          padding-top: 8px;
+          font-size: 14px;
+          line-height: 26px;
+          color: $red_color;
+          text-decoration: none;
+          transition: 0.3s;
+          font-family: "Open Sans",sans-serif;
+          &:hover {
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+  // .row{
+  //  position:sticky;
+   .row-top{
+   position: relative;
+   left: 0px;
+  }
+  .row-bottom{
+    position: relative;
+    left: 200px;
+  }
+
+  #scrolling-div {
+    display: flex;
+    flex-direction: column;
+
+    & :first-child {
+      align-self: end;
+    }
+  }
+  // }
+  .bottomPartners{
+    .partnersSliderColumns{
+        padding: 20px 10px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        width: 4%;
+        height: 2%;
+  }
+}
+
+.secondPartners-ourpartners{
+  font-family: Open Sans;
+  color: #2A5CE3;
+  position: relative;
+  top: 35px;
+}

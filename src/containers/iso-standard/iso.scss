@@ -1,0 +1,138 @@
+.iso-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Open Sans;
+}
+
+.iso-breadcrumb{
+    margin: 20px 0 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 245.5px;
+    color: #2A5CE3;
+}
+
+.iso-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 600px;
+    height: 88px;
+    background-color: #F8F8F9;
+
+    span{
+        padding: 0.4rem;
+
+    }
+
+    p{
+        padding: 0.4rem;
+
+    }
+}
+
+.iso-container_content1{
+    h2{
+        margin: 25px 0 25px 0;
+    }
+}
+
+.iso-principles{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 725px;
+
+    .iso-principles_rules{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        p{
+            font-size: 16px;
+            color: #47525C;
+            width: 560px;
+        }
+    }
+
+    .iso-numbers{
+        font-weight: bolder;
+        font-size: 18px;
+    }
+}
+
+.iso-ul{
+    margin-top: 30px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    li{
+        width: 570px;
+        margin-left: 15px;
+    }
+}
+
+.iso-container2{
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F8F8F9;
+    font-family: Open Sans,Regular;
+    height: 690px;
+}
+
+.iso-container_newsTitle{
+    margin-top: 50px;
+    p{
+        color: #2A5CE3;
+        margin-top: 10px;
+    }
+}
+
+.iso-news{
+    margin-top: 20px;
+    // display: flex;
+    // justify-content: space-between;
+    
+}
+
+.iso-news_navigation{
+    margin: 150px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    width: 800px;
+    color: #2A5CE3;
+}
+
+.iso-news_navigation-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    // align-items: center;
+}
+
+.iso-blog_button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2A5CE3;
+    margin-top: 15px;
+}
+
+.iso-nav-arrows{
+    display: flex;
+    align-items: flex-start;
+    img{
+        margin: 2.5px 5px 0 10px;
+    }
+}
+
+// .iso-footer{
+//     margin-top: 100px;
+// }

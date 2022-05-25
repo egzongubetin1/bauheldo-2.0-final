@@ -1,0 +1,91 @@
+@import './components/navbar/navbar.scss';
+@import './components/button/button.scss';
+@import './containers/header/header.scss';
+@import './components/slider/sliderComponent.scss';
+@import './containers/firms/firms.scss';
+@import './components/footer/footer.scss';
+@import './components/register/register.scss';
+@import './components/section2/section2.scss';
+@import './components/section3/section3.scss';
+@import './components/latestReviews/latestReview.scss';
+@import './components/secondPartners/secondPartners.scss';
+@import './components/video/video.scss';
+@import './components/awards/awards.scss';
+@import './components/fourposts/fourpost.scss';
+@import './components/info/info.scss';
+@import './containers/evaluate/evaluate.scss';
+@import './components/searchLocation/searchLocation.scss';
+@import './components/StarRating/starrating.scss';
+@import './components/bookmarks/bookmarks.scss';
+@import './components/menu/menu.scss';
+@import './containers/offers/offers.scss';
+@import './components/subscription-module/subscription.scss';
+@import './components/package/package.scss';
+@import './components/dota-component/dota.scss';
+@import './components/questions/questions.scss';
+@import './components//breadcrumbs/breadcrumbs.scss';
+@import './components/advantagesCard/advantagesCard.scss';
+@import './containers/sharereviews/sharereviews.scss';
+@import './components/discoverCard/discoverCard.scss';
+@import './containers/widget/widget.scss';
+@import './containers/iso-standard/iso.scss';
+@import './components/iso-news/isoNews.scss';
+@import './containers/scoring-policies/scoring.scss';
+@import './components/discoverCard2/discoverCard2.scss';
+@import './containers/checkRatings/checkRatings.scss';
+@import './components/login/login.scss';
+@import './admin-panel/dashboard/dashboard.scss';
+@import './components/registerName/registerName.scss';
+@import './containers/error-404/error.scss';
+
+
+@import "slick-carousel/slick/slick.css"; 
+@import "slick-carousel/slick/slick-theme.css";
+
+@import 'react-toastify/dist/ReactToastify.css';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+$red_color: #E7352A;
+$blue_color: #194783;
+$white_color: #FFF;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1096px;
+}
+
+.container2{
+    width: 600px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.gray{
+    color:#47525C;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+//   .slick-arrow {
+//       font-size: 20px;
+//       color: #000;
+//   }
+
+
+// @media only screen and (max-width: 414px){
+//     *{
+//         overflow-x: hidden;
+//     }
+// }
+
+

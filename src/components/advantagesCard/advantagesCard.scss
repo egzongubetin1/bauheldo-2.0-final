@@ -1,0 +1,84 @@
+.advantages-cards{
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // width: 100%;
+    // margin:3rem 3rem 3rem 0rem;
+    margin: 1rem 1rem 0 0;
+    .advantages-cards_row{
+      display: flex;
+    //   justify-content: space-between;
+      height: 420px;
+      width: 356px;
+    }
+    .advantages-card_container {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #C4CED9 ;
+      border-radius: 8px;
+      padding-bottom: 10px;
+       box-sizing: border-box;
+       height: 420px;
+       width: 356px;
+       min-height: inherit;
+    }
+    .advantages-card_header{
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-right: 20px;
+      padding-left: 20px;
+      border-bottom: 1px solid #C4CED9;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: 'Open Sans', sans-serif;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow:hidden ;
+      line-height: 28px;
+    }
+    .advantages-card_body{
+      padding: 20px;
+      height: 280px;
+    }
+    .advantages-card_image{
+      position: relative;
+      margin-bottom: 12px;
+      overflow: hidden;
+      font-size: 0;
+      line-height: 0;
+      border-radius: 4px;
+    }
+    .advantages-card_description {
+      font-size: 14px;
+      line-height: 26px;
+      color: #47525D;
+
+      p{
+        max-height: 125px;
+      }
+    }
+    .advantages-card_footer{
+      margin-top: auto;
+      padding-top: 5px;
+      padding-left: 20px;
+      border-top: 1px solid #C4CED9 ;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: #4E7CBD;
+      line-height: 40px;
+      font-family: 'Open Sans',sans-serif;
+      font-size: 16px;
+    }
+    .advantages-card_footer-arrow{
+      line-height: 40px;
+      margin-right: 20px;
+      margin-left: auto;
+      padding-left: 20px;
+      border-left:1px solid #C4CED9 ;
+    }
+  }
+
+  .advantages-card_img122{
+    margin-top: 12.5px;
+  }

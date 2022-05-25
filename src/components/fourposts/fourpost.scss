@@ -1,0 +1,68 @@
+.fourposts-maincontainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.fourPost-Text {
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 10px;
+ padding-top: 55px;
+ font-family: Open Sans;
+ h2{
+   font-size: 16px;
+   line-height: 32px;
+   color: #000;
+   font-family: Open Sans, Bold;
+ }
+ a{
+   font-size: 16px;
+   line-height: 32px;
+   color: $blue_color;
+   font-family: Open Sans;
+ }
+}
+.posts {
+ display: flex;
+ justify-content: space-between;
+ .post {
+   width: 24%;
+   .imgBackground {
+     width: 100%;
+     display: block;
+     min-height: 210px;
+     background-color: #F1F1F5;
+     border-radius: 4px;
+     img {
+       width: 100%;
+     }
+   }
+   h4{
+     font-size: 16px;
+     line-height: 28px;
+     color: black;
+     font-weight: bold;
+     margin-top: 10px;
+     font-family: Open Sans;
+   }
+   h4:hover{
+     color: $red_color;
+     text-decoration:none;
+   }
+ }
+}
+
+@media only screen and (max-width: 414px) {
+  .fourposts-container{
+    max-width: 828px !important;
+    position: relative;
+    left: 210px;
+  }
+
+  // .posts{
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
+}

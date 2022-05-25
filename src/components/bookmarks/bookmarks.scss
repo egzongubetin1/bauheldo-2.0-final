@@ -1,0 +1,78 @@
+.bookmarks{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    .bookmarks-item{
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      align-content: space-evenly;
+      h1{
+        font-style: bolder;
+        font-family: Open Sans,Bold;
+        font-size: 30px;
+        font-weight: bolder;
+      }
+    }
+    .bookmarks-up{
+      justify-content: space-between;
+      text-align: left;
+      display: inline-block;
+      .bookmarks-up_items{
+       word-spacing:10px;
+       justify-content: space-between;
+       margin-bottom: 30px;
+       display: inline-flex;
+       flex-direction: row;
+      }
+    }
+      .bookmarks-item_banner{
+        h2{
+          font-family: 'Open Sans';
+          font-style: Bold;
+          text-align: center;
+          font-size: 30px;
+          margin:1.2rem 0rem 0 0;
+        }
+        p{
+          font-family: 'Open Sans', sans-serif;
+          font-size: 16px;
+            margin:1.2rem 0rem 2.6rem 0;
+        }
+        a{
+          font-size: 16px;
+          // line-height: 32px;
+          padding: 12px 20px;
+          font-family: Open Sans;
+          min-width: 100px;
+          color: white;
+          background-color: $red_color;
+          margin-top: 50%;
+          text-decoration: none;
+          font-weight: bold;
+          border: 0 solid transparent !important;
+          border-radius: 4px;
+        }
+        .bookmarks_baba{
+          width : 525px;
+          align-items: center;
+          padding-top: 80px;
+          line-height: 1.5;
+        }
+        .butoni{
+          padding-bottom: 20%;
+        }
+        }
+      }
+
+
+      .bookmarks-up_items{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 245px;
+        margin-top: 1rem;
+      }

@@ -1,0 +1,89 @@
+.section2-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0rem 4rem 0;
+}
+.informationBlock {
+    text-align: center;
+    margin-top: 75px;
+    h2{
+        font-size: 26px;
+        font-family: Open Sans;
+        font-weight: bold;
+        line-height: 34px;
+        // width: 408px;
+        margin: 0;
+        font-family: "Open Sans",sans-serif;
+        color: #000
+     }
+     h3{
+        font-family: Open Sans;
+        font-size: 16px;
+        color: #47525D;
+        line-height: 52px;
+        font-family: Open Sans;
+        font-style:Regular;
+        }
+}
+.informationCards {
+    display: flex;
+    justify-content: space-around;
+    padding: 65px 0;
+    .informationCard {
+        border-left: 1px solid #E7EBF0;
+        flex: 1 1;
+        &:first-child {
+            border-left: 0;
+        }
+        .informationCard-text{
+         padding-top: 10px;
+        }
+    }
+    h4 {
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: bold;
+        color: #000;
+        padding-top: 30px;
+      }
+      h5 {
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: normal;
+        padding-top: 10px;
+        // color: $grayColor;
+      }
+      a {
+        font-family: Open Sans;
+        padding-top: 8px;
+        font-size: 14px;
+        line-height: 26px;
+        color:#2A5CE3 ;
+        text-decoration: none;
+        transition: 0.3s;
+        &:hover {
+          opacity: 0.7;
+        }
+    }
+}
+
+@media only screen and(max-width: 414px){
+
+  .informationBlock{
+    display: flex;
+    flex-direction: column;
+    max-width: 384px;
+  }
+
+  .informationCards{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 6px;
+    width: 350px;
+    height: 584px;
+    margin-left:1px;
+  }
+}

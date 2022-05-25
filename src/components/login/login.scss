@@ -1,0 +1,120 @@
+$blue_color :#2A5CE3;
+
+.login-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(../../assets/register.png); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.login-top_text{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    height :60px;
+    margin-bottom: 10px;
+    p{
+        font-size: 12px;
+    }
+    span{
+        color: $blue_color;
+    }
+}
+
+.login-bottom_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    width: 372px;
+    p{
+        margin-right: 10px;
+    }
+}
+
+.login-containers{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.login-container_module{
+    display: flex;
+    font-family: Open Sans, Regular;
+    flex-direction: column;
+    // justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+    background-color: #D0D0D0;
+    width: 479px !important;
+    height :522px !important;
+}
+
+.login-container_module-content{
+    display: flex;
+    font-family: Open Sans;
+    flex-direction: column;
+    align-items: center;
+    max-width: 372px;
+    margin-top: 45px;
+    font-size: 14px;
+}
+
+.login{
+    margin-bottom: 45px;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.login-input{
+    width: 355px;
+    height: 48px;
+    font-size: 16px;
+    // color: #D0D0D0;
+    font-family: Open Sans,Regular;
+    padding-left: 1rem;
+    // margin-left: 1rem;
+}
+
+.login-public{
+    font-size :10px;
+    margin-left: 1rem;
+    padding-bottom: 10px;
+}
+
+.border{
+    border-top: 1.3px solid #6d626a;
+    width : 150px;
+    margin-top: 10px;
+    padding : 0.4rem;
+}
+
+.borders2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.border-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.or{
+    // margin: 0.2rem;
+    padding: 0 10px 0 10px;
+}
+
+.login-important_text1{
+    color: $blue_color;
+}
+
+.login-important_text2{
+    color: $blue_color;
+}
+
+

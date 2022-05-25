@@ -1,0 +1,11 @@
+export { default as Header } from './header/Header';
+export { default as Firms } from './firms/Firms';
+export { default as Main } from './main/Main';
+export { default as Evaluate } from './evaluate/Evaluate';
+export { default as Offers } from './offers/Offers';
+export { default as CollectReviews } from './collectReviews/CollectReviews';
+export { default as Widget } from './widget/Widget';
+export { default as Iso } from './iso-standard/Iso';
+export { default as Scoring } from './scoring-policies/Scoring';
+export { default as CheckRatings } from './checkRatings/CheckRatings';
+export { default as Error } from './error-404/Error';

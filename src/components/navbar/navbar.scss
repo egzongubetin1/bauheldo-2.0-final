@@ -1,0 +1,127 @@
+.navbar-container{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 2px 0px;
+    // position: sticky;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background: white;
+    z-index: 999;
+    
+
+    &_all{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+}
+
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-routes{
+    display: flex;
+    margin-top: -5px;
+}
+
+.navbar-route{
+    display: flex;
+    flex-direction: column;
+    max-height: 50px;
+    max-width: 50px;
+    padding: 1rem;
+
+    &_menu{
+        margin: 6px 0px 0px -10px;  
+    }
+
+    .Link{
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-between;
+        align-items: center;
+        margin-left: 3px;
+        // max-width: 40px;
+        // max-height: 55px;
+        font-size: 15px;
+        text-decoration: none;
+        font-family: Open Sans,Regular;
+        color: #21262B;
+    }
+
+    .nav-icons{
+        height: 30px;
+    }
+}
+
+.navbar-logo{
+    padding-top: 9px;
+}
+
+.navbar-route_menu{
+    flex: 1;
+    // align-items: center;
+    margin-top: -2px;
+    font-size: 13px;
+    font-family: Open Sans,Regular;
+    display: flex;
+    flex-direction: column;
+    max-height: 50px;
+    max-width: 40px;
+    padding: 1rem;
+}
+
+.navbar-btn_container{
+    margin-top: 10px;
+}
+
+.navbar-menu_link{
+    margin-top: -2px;
+}
+
+#Capa_1{
+    position: relative;
+    top: 3px;
+    left: 2.3px;
+}
+
+.header-container_content-wrapper{
+    z-index: 5;
+}
+
+@media only screen and (max-width: 414px) {
+    .navbar-container{
+        width: 414px;
+        &_all{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .navbar-logo{
+        width: 131px;
+        height : 32px;
+        margin-right: 75px;
+    }
+
+    .navbar-route{
+        display: none;
+    }
+
+    .navbar-route_menu{
+        margin-top: 2px;
+        font-size:12px;
+    }
+
+    #Capa_1{
+        width: 25px;
+        height: 25px;
+    }
+      
+  }

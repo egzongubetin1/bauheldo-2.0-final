@@ -1,0 +1,42 @@
+.searchLocation-container{
+    margin-top: 50px;
+}
+
+.searchLocation-input_holder{
+    border: 3px solid #2A5CE3;
+    width: 690px;
+    height : 60px;
+    border-radius: 6px;
+    padding : 1rem 0 0 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchLocation-input_holder-search{
+    margin-top: 20px;
+}
+
+.searchLocation-content{
+    margin-top: -200px;
+}
+
+.searchLocation-title{
+    color: #2A5CE3;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top: -30px;
+}
+
+.searchLocation-input{
+    position: relative;
+    top: 5px;
+    width: 500px;
+    height: 25px;
+    border: none;
+}
+
+.searchLocation-btn{
+    position: relative;
+    top: -12px;
+    left: -5px;
+}

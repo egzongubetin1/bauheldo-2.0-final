@@ -1,0 +1,18 @@
+.starRadio {
+    input {
+      display: none;
+    }
+  }
+  .star {
+    cursor: pointer;
+      transition: color 100ms;
+    &:hover {
+     color: #050000;
+     transition: color 100ms;
+    }
+  }
+  .ratingStar{
+    margin-left: 13px;
+    font-size: 17px;
+    font-family: Open Sans, Regular;
+  }
